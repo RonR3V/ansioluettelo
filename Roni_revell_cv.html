@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Roni Revell | CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #fff;
+        }
+
+        header {
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+            opacity: 0.85;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.08);
+            border-radius: 16px;
+            padding: 25px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        h2 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 24px;
+            border-left: 4px solid #00d4ff;
+            padding-left: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #00d4ff;
+            color: #000;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin: 5px 5px 0 0;
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            opacity: 0.6;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 36px;
+            }
+        }
+.cta-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+    padding: 14px 24px;
+    background: linear-gradient(135deg, #00d4ff, #00ffa3);
+    color: #000;
+    font-weight: 700;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 8px 25px rgba(0, 212, 255, 0.4);
+    transition: all 0.3s ease;
+}
+
+.cta-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(0, 212, 255, 0.6);
+}
+
+.cta-link .arrow {
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.cta-link:hover .arrow {
+    transform: translateX(6px);
+}
+
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="kuva3.png" alt="Roni Revell" class="profile-img">
+    <h1>Roni Revell</h1>
+    <p>Web-kehityksestä kiinnostunut tekijä • Teknologia • Ongelmanratkaisu • Välittömyys</p>
+</header>
+
+<div class="container">
+
+    <div class="grid">
+
+        <div class="card">
+            <h2>👤 Profiili</h2>
+            <p>
+                Luova ja oppimishaluinen tekijä, jolla on hyvä ihmistuntemus ja vahvat vuorovaikutustaidot. Nautin ongelmien ratkaisusta, teknologian hyödyntämisestä ja 		käytännön tekemisestä.            </p>
+        </div>
+
+        <div class="card">
+            <h2>💼 Työkokemus</h2>
+            <p><strong>Työsuojeluvaltuutettu, myyjä ja perehdyttäjä </strong><br>Puuilo Tavaratalot Oy</p>
+            <p>2019 – </p>
+
+            <p><strong>Kouluttava myyjä</strong><br>Verisure Oy</p>
+            <p>2017 – 2019</p>
+	    <a href="työkokemus.html" class="cta-link">
+    	    <span>Katso laajempi Kokemus</span>
+            <span class="arrow">→</span>
+            </a>
+
+
+        </div>
+
+        <div class="card">
+            <h2>🎓 Koulutus</h2>
+            <p><strong>Tradenomi (AMK), tietojenkäsittely</strong><br>Hämeen ammattikorkeakoulu</p>
+            <p>2025 - </p>
+
+	    <p><strong>Myynnin ammattitutkinto</strong><br>Winnova</p>
+            <p>2017 - 2017</p>
+	    <a href="Koulutus.html" class="cta-link">
+	    <span>Katso laajempi Koulutus</span>
+	    <span class="arrow">→</span>
+            </a>
+
+
+
+        </div>
+
+        <div class="card">
+            <h2>🚀 Osaaminen</h2>
+            <div class="tag">HTML</div>
+            <div class="tag">CSS</div>
+            <div class="tag">Windows</div>
+            <div class="tag">MS Office</div>
+            <div class="tag">Tiimityö</div>
+            <div class="tag">Ongelmanratkaisu</div>
+        </div>
+
+        <div class="card">
+            <h2>🌍 Kielitaito</h2>
+            <ul>
+                <li>Suomi – äidinkieli</li>
+                <li>Englanti – hyvä</li>
+	  	<li>Ruotsi – Tyydyttävä</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>📬 Yhteystiedot</h2>
+            <p>📍 Tampere</p>
+            <p>📧 ronr3v@gmail.com</p>
+            <p>📞 050 401 6423</p>
+        </div>
+
+	<div class="card">
+            <h2>🚗 Ajokortti</h2>
+	    <div class="tag">A & B</div>
+            <div class="tag">Auto käytettävissä</div>
+            
+            
+        </div>
+
+
+	<div class="card">
+            <h2>🤝 Suosittelijat</h2>
+            <p> Sami Peltonen, Entinen myymäläpäällikkö, Puuilo tavaratalot Oy, 044 2046930</p>
+            <p> Jetta Koskenkanto, Entinen myymäläpäällikkö, Puuilo tavaratalot Oy, 040 6859859</p>
+            <p> Harri Peltonen, Entinen esihenkilö, K-rauta, 040 730 5439</p>
+        </div>
+
+
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Roni Revell
+</footer>
+
+</body>
+</html>
