@@ -10,7 +10,46 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<div class="container">
+  <div class="left">
+    <!-- kuva, yhteystiedot -->
+  </div>
+  <div class="right">
+    <!-- sisältö -->
+  </div>
+</div>
 
+	.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 2;
+}
+
+	@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .left, .right {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
 
 
 	
@@ -238,6 +277,7 @@
 
 </body>
 </html>
+
 
 
 
